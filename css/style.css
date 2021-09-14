@@ -31,10 +31,11 @@ header{
     align-items: center;
     border-bottom: 1px solid #000;
     justify-content: center;
-    height: 8vh;
+   /*  height: 8vh; */
 }
 header > img {
     max-width: 100%;
+    padding: 15px;
 }
 #social {
     display: flex;
@@ -302,3 +303,39 @@ footer ul li:last-child {
     align-items: end;
     position: absolute;
 }
+
+.cad {
+    margin-left: 20vw;
+}
+
+
+@media screen and (max-width: 1182px) {
+   #menu {
+       text-align: initial;
+   }
+
+   .cad {
+        margin-left: 12vw;
+   }
+}
+
+@media screen and (max-width: 1073px) {
+ 
+    .cad {
+         margin-left: 7vw;
+    }
+ }
+
+ @media screen and (max-width: 1014px) {
+ 
+    .cad {
+         margin-left: 7vw;
+    }
+ }
+
+ @media screen and (max-width: 992px) {
+ 
+    .cad {
+         margin-left: 2vw;
+    }
+ }
