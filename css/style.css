@@ -11,15 +11,6 @@
     
 }
 
-:root {
-    --cor-primaria: #550000;
-    --cor-secundaria: #baa5a5;
-    --cor-terceira: #c16c6c;
-    --cor-fundo-claro:#c6c4c4;
-    --cor-escuro: #666666;
-   
-}
-
 html {                  /* Tamanho de fonte padrão do documento */
     font-size: 16px;
 }
@@ -31,32 +22,13 @@ header{
     align-items: center;
     border-bottom: 1px solid #000;
     justify-content: center;
-   /*  height: 8vh; */
+    height: 10vh;
 }
 header > img {
     max-width: 100%;
     padding: 15px;
 }
-#social {
-    display: flex;
-    flex-direction: row;
-    
-    
-}
-#social a{
-    text-decoration: none;
-    color: #FFFFFF;
-    display: flex;
-    align-items: center;
-}
-#social a span {
-    margin-left: 6px;
-    display: none;
-}
 
-#social a:hover span{
-    display: inline;
-}
 
 #menu {
     background-color: #000;
